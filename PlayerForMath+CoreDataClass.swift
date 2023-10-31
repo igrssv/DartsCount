@@ -1,5 +1,5 @@
 //
-//  MatchEntity+CoreDataClass.swift
+//  PlayerForMath+CoreDataClass.swift
 //  DartsCount
 //
 //  Created by Игорь Сысоев on 15.10.2023.
@@ -9,7 +9,7 @@
 import Foundation
 import CoreData
 
-@objc(MatchEntity)
-public class MatchEntity: NSManagedObject {
+@objc(PlayerForMath)
+public class PlayerForMath: NSManagedObject {
 
 }

@@ -2,7 +2,7 @@
 //  MatchEntity+CoreDataProperties.swift
 //  DartsCount
 //
-//  Created by Игорь Сысоев on 09.10.2023.
+//  Created by Игорь Сысоев on 15.10.2023.
 //
 //
 
@@ -18,6 +18,7 @@ extension MatchEntity {
 
     @NSManaged public var date: Date?
     @NSManaged public var id: UUID?
+    @NSManaged public var time: String?
     @NSManaged public var winner: String?
     @NSManaged public var players: NSSet?
 
@@ -27,10 +28,10 @@ extension MatchEntity {
 extension MatchEntity {
 
     @objc(addPlayersObject:)
-    @NSManaged public func addToPlayers(_ value: PlayerEntity)
+    @NSManaged public func addToPlayers(_ value: PlayerForMath)
 
     @objc(removePlayersObject:)
-    @NSManaged public func removeFromPlayers(_ value: PlayerEntity)
+    @NSManaged public func removeFromPlayers(_ value: PlayerForMath)
 
     @objc(addPlayers:)
     @NSManaged public func addToPlayers(_ values: NSSet)

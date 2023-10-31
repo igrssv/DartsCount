@@ -2,7 +2,7 @@
 //  MoveEntity+CoreDataClass.swift
 //  DartsCount
 //
-//  Created by Игорь Сысоев on 09.10.2023.
+//  Created by Игорь Сысоев on 15.10.2023.
 //
 //
 
